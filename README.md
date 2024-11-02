@@ -13,7 +13,7 @@
 
 欢迎来到《格子大师》，这是一个数字游戏合集。
 
-目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一。
+目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百。
 
 所有游戏都在GameCenter有排行榜。
 
@@ -208,7 +208,7 @@
 ## 英文版
 
 Welcome to 'Grid Hero', a collection of number games.
-Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks and Oneness.
+Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred.
 All games have leaderboards on GameCenter.
 Continuously adding new games.
 Contact me for discussions at wyklion@qq.com
@@ -395,7 +395,7 @@ Complete some numbers in the cells to satisfy the following conditions:
 ## 日文版
 
 『格子の達人』へようこそ、数字論理パズルのコレクションです。
-現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化。
+現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百。
 すべてのゲームにはGameCenterでのリーダーボードがあります。
 新しいゲームを続々と追加中です。
 メールアドレス：wyklion@qq.com
