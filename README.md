@@ -11,9 +11,11 @@
 
 ## 中文说明：
 
-欢迎来到《格子大师》，这是一个数字游戏合集。
+欢迎来到数字逻辑迷题合集游戏《格子大师》。
 
-目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百。
+目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百、方阵和。
+
+每周都有100关挑战关卡。
 
 所有游戏都在GameCenter有排行榜。
 
@@ -205,10 +207,19 @@
 1. 每行每列中的数值之和都是100。
 2. 可以在一位数值的左边或右边补上一个数字。
 
+#### 方阵和
+
+将部分格子涂黑，使每行每列的黑格分数和与给定值相同。
+
+1. 每个行、列的第一格有1分，第二格有2分，如此类推。（标识在右边和上边）
+2. 涂黑的方格才会计算分数。
+3. 左边的数字是该行的分数总和，上边的数字是该列的分数总和。
+
 ## 英文版
 
 Welcome to 'Grid Hero', a collection of number games.
 Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred.
+There are 100 challenge levels every week.
 All games have leaderboards on GameCenter.
 Continuously adding new games.
 Contact me for discussions at wyklion@qq.com
@@ -392,10 +403,19 @@ Complete some numbers in the cells to satisfy the following conditions:
 1. The sum of the numbers in each row and each column is 100.
 2. You can add a digit to the left or right of a single-digit number.
 
+#### Kakurasu:
+
+Shade some cells to make the sum of the shaded cells' scores in each row and column match the given values.
+
+1. The first cell of each row and column is worth 1 point, the second cell is worth 2 points, and so on. (Shown on the right and bottom)
+2. Only shaded cells are counted towards the score.
+3. The numbers on the left indicate the total score for each row, and the numbers on the top indicate the total score for each column.
+
 ## 日文版
 
 『格子の達人』へようこそ、数字論理パズルのコレクションです。
-現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百。
+現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百、カクラス。
+毎週、100ステージのチャレンジがあります。
 すべてのゲームにはGameCenterでのリーダーボードがあります。
 新しいゲームを続々と追加中です。
 メールアドレス：wyklion@qq.com
@@ -583,32 +603,39 @@ Complete some numbers in the cells to satisfy the following conditions:
 1. 各行および各列の数字の合計は100です。
 2. 一桁の数字の左側または右側に数字を追加できます。
 
+#### 「カクラス」：
+
+一部のマスを黒く塗り、各行・列の黒マスの得点が指定された値と一致するようにします。
+
+1. 各行・列の最初のマスには1点、2番目のマスには2点と順次増加します。（右側と下側に表示）
+2. 黒く塗ったマスだけが得点にカウントされます。
+3. 左側の数字はその行の得点合計、上側の数字はその列の得点合計を表します。
+
+
 ## 关键词：
 
-英文：puzzle,hundred,doppelblock,sudoku,minesweeper,hitori,kuromasu,slitherlink,thermometers,eulersquare
+英文：logic number puzzles,kakurasu,sudoku,binairo,hitori,kuromasu,slitherlink,masyu,eulersquare,shikaku
+没写：renzoku,oneness,findnine,doppelblock,tents,lightup,fourwinds,gappy,nurikabe,hundred,thermometers,dominosa,bricks,battleships,minesweeper,
 
-没写：renzoku,oneness,findnine,tents,lightup,binairo,dominosa,fourwinds,battleships,gappy,nurikabe,hundred,masyu,
+中文：数字谜题,脑力训练,谜题发烧友,锻炼大脑,方阵和,数回,数墙,扫雷,欧拉方阵,数独,数壹,数邻,数方,四风,温度计,摩天大楼,战舰,帐篷,点灯,找九,珍珠,黑格,双黑格,箭头,间隙,2048,OOXX
+没写:一百,砖块,归一
 
-中文：数字,方块,数字逻辑,一百,砖块,数回,数墙,迷题,扫雷,欧拉方阵,数独,数壹,数邻,数方,四风,温度计,摩天大楼,战舰,帐篷,点灯,找九,珍珠,黑格,双黑格,箭头,间隙,归一,2048,OOXX
-
-日文：パズル,ロジック,レンガ,オイラー方陣,数字,塗壁,数独,マインスイーパー,ひとり,黒マス,スリザーリンク,ドミノサ,ビルディング,タクズ,戦艦,真珠,テント,美術館,連続,四風,矢印,間隙,双黒格
-
+日文：数字パズル,カクラス,レンガ,オイラー方陣,塗壁,数独,マインスイーパー,ひとり,黒マス,スリザーリンク,ドミノサ,ビルディング,タクズ,戦艦,真珠,テント,美術館,連続,四風,矢印,間隙,双黒格
 没写:九を探す,四角に切れ,温度計,一百,
 
-德语：puzzle,logik,bricks,doppelblock,eulersquare,sudoku,2048,tents,lightup,masyu,thermometer,binairo
-
-没盖：renzoku,oneness,findnine,nurikabe,
+德语：Zahlenrätsel,brain game,doppelblock,eulersquare,sudoku,2048,tents,gappy,lightup,masyu,nurikabe
+没盖：renzoku,oneness,findnine,nurikabe,bricks,thermometer
 
 ## 标题：
 
 格子大师 - 数字逻辑迷题合集
-
 数壹、数独、数回、数方、数邻、数墙、战舰、珍珠、四风、箭头…
 
 Grid Hero - Logic Puzzles
-
 Collection of Logic Puzzles
 
 格子の達人 - 数字論理パズルのコレクション
-
 数独,塗壁,四風,真珠,矢印,テント,温度計,双黒格,戦艦…
+
+Gittermeister
+Sammlung von Logikrätseln
