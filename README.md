@@ -13,7 +13,7 @@
 
 欢迎来到数字逻辑迷题合集游戏《格子大师》。
 
-目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百、方阵和。
+目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百、方阵和、墙。
 
 每周都有100关挑战关卡。
 
@@ -215,10 +215,19 @@
 2. 涂黑的方格才会计算分数。
 3. 左边的数字是该行的分数总和，上边的数字是该列的分数总和。
 
+#### 墙
+
+在方格中填上横线或竖线以满足以下条件：
+
+1. 所有格子都有线经过。
+2. 从数字方格中发出的线总长度与数字相同。
+3. 提示：从数字处开始向四个方向拖拽，可以连出对应方向的直线。
+
+
 ## 英文版
 
 Welcome to 'Grid Hero', a collection of number games.
-Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred.
+Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred, Kakurasu, Walls.
 There are 100 challenge levels every week.
 All games have leaderboards on GameCenter.
 Continuously adding new games.
@@ -411,10 +420,18 @@ Shade some cells to make the sum of the shaded cells' scores in each row and col
 2. Only shaded cells are counted towards the score.
 3. The numbers on the left indicate the total score for each row, and the numbers on the top indicate the total score for each column.
 
+#### Walls:
+
+Draw horizontal or vertical lines in the grid to meet the following conditions:
+
+1. Every square should have a line passing through it.
+2. The total length of lines extending from a numbered square equals the number.
+
+
 ## 日文版
 
 『格子の達人』へようこそ、数字論理パズルのコレクションです。
-現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百、カクラス。
+現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百、カクラス、壁。
 毎週、100ステージのチャレンジがあります。
 すべてのゲームにはGameCenterでのリーダーボードがあります。
 新しいゲームを続々と追加中です。
@@ -611,6 +628,12 @@ Shade some cells to make the sum of the shaded cells' scores in each row and col
 2. 黒く塗ったマスだけが得点にカウントされます。
 3. 左側の数字はその行の得点合計、上側の数字はその列の得点合計を表します。
 
+#### 「壁」：
+
+以下の条件を満たすように、方眼に横線または縦線を描きます：
+1. すべてのマスに線が通る必要があります。
+2. 数字のあるマスから伸びる線の合計の長さが、その数字と同じになる。
+3. ヒント：数字のマスから4方向のいずれかにドラッグして直線を描けます。
 
 ## 关键词：
 
@@ -624,7 +647,7 @@ Shade some cells to make the sum of the shaded cells' scores in each row and col
 没写:九を探す,四角に切れ,温度計,一百,
 
 德语：Zahlenrätsel,brain game,doppelblock,eulersquare,sudoku,2048,tents,gappy,lightup,masyu,nurikabe
-没盖：renzoku,oneness,findnine,nurikabe,bricks,thermometer
+没盖：renzoku,oneness,findnine,bricks,thermometer
 
 ## 标题：
 
