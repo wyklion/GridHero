@@ -13,7 +13,7 @@
 
 欢迎来到数字逻辑迷题合集游戏《格子大师》。
 
-目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百、方阵和、墙。
+目前包含游戏：数壹、数独、黑格、找九、摩天大楼、数回、OOXX、数邻、战舰、帐篷、点灯、扫雷、连续、珍珠、四风、数墙、箭头、间隙、双黑格、欧拉方阵、温度计、砖块、归一、一百、方阵和、墙、斜线、数织、数和。
 
 每周都有100关挑战关卡。
 
@@ -223,11 +223,40 @@
 2. 从数字方格中发出的线总长度与数字相同。
 3. 提示：从数字处开始向四个方向拖拽，可以连出对应方向的直线。
 
+#### 斜线
+
+在每个方格中划一条对角线，满足以下条件:
+
+1. 圆圈内的数字表示它周围四格内与其相连的对角线的数目。
+2. 所有斜线不能连接成环。
+
+#### 数织
+
+将部分方格涂黑以满足以下条件：
+
+1. 棋盘每一行左边或每一列上方的数字表示该行或该列上每一组相邻的黑色方格的长度。
+2. 不同组黑色方格间一定有最少一个空方格。
+
+#### 数和
+
+在所有方格中填入1-9中的一个数，以满足以下条件：
+
+1. 连续白色方格中的数不得重复。
+2. 连续白色方格中数的总和应该等于与其相邻（左或上方）的黑色方格内的提示数。
+
+#### 数间
+
+将一些格子涂成黑色，满足以下条件：
+
+1. 带有数字的区域内需要包含相应个数的黑色格子。
+2. 两个黑色格子之间不能水平和垂直相连。
+3. 直线相连的白色格子不能跨越两个以上的区域。
+4. 所有白色格子需要相连。
 
 ## 英文版
 
 Welcome to 'Grid Hero', a collection of number games.
-Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred, Kakurasu, Walls.
+Currently includes games: Hitori, Sudoku, Kuromasu, FindNine, Skycrapers, SlitherLink, Binairo, Dominosa, Battleships, Tents, LightUp, Minesweeper, Renzoku, Masyu, FourWinds, Nurikabe, Arrows, Gappy, Doppelblock, EulerSquare, Thermometers, Bricks, Oneness, Hundred, Kakurasu, Walls, Slant, Nonogram, Kakuro.
 There are 100 challenge levels every week.
 All games have leaderboards on GameCenter.
 Continuously adding new games.
@@ -427,11 +456,40 @@ Draw horizontal or vertical lines in the grid to meet the following conditions:
 1. Every square should have a line passing through it.
 2. The total length of lines extending from a numbered square equals the number.
 
+#### Slant:
+
+Draw a diagonal line in each square that satisfies the following conditions:
+
+1. The number inside the circle indicates the number of diagonal lines connected to it from the surrounding four squares.
+2. No diagonal lines should form a loop.
+
+#### Nonogram
+
+Blacken some of the squares to satisfy the following conditions:
+
+1. The numbers on the left of each row or above each column indicate the length of each group of consecutive black squares in that row or column.
+2. There must be at least one empty square between different groups of black squares.
+
+#### Kakuro
+
+Fill in each white square with a number from 1 to 9 to satisfy the following conditions:
+
+1. No number may be repeated within a consecutive block of white squares.
+2. The sum of the numbers in a consecutive block of white squares must equal the clue number in the adjacent (left or above) black square.
+ 
+#### Heyawake
+
+Paint some cells black,  to satisfy the following conditions:
+
+1. Each numbered region must contain the specified number of black cells.
+2. Black cells cannot be horizontally or vertically adjacent.
+3. A straight line of white cells cannot span more than two regions.
+4. All white cells must be connected.
 
 ## 日文版
 
 『格子の達人』へようこそ、数字論理パズルのコレクションです。
-現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百、カクラス、壁。
+現在含まれているゲーム：ひとり、数独、黒マス、九を探す、スリザーリンク、ビルディング、タクズ、ドミノサ、戦艦、テント、美術館、マインスイーパー、連続、真珠、四風、矢印、間隙、双黒格、オイラー方陣、一元化、一百、カクラス、壁、斜線、ののぐらむ、カックロ。
 毎週、100ステージのチャレンジがあります。
 すべてのゲームにはGameCenterでのリーダーボードがあります。
 新しいゲームを続々と追加中です。
@@ -635,19 +693,48 @@ Draw horizontal or vertical lines in the grid to meet the following conditions:
 2. 数字のあるマスから伸びる線の合計の長さが、その数字と同じになる。
 3. ヒント：数字のマスから4方向のいずれかにドラッグして直線を描けます。
 
+#### 「斜線」：
+
+各セルに斜めの線を引き、以下の条件を満たすようにします：
+1. 円内の数字は、その周囲の4つのセルと接続する斜線の本数を示します。
+2. 斜線がループを作ることはできません。
+
+#### 「ののぐらむ」：
+
+以下の条件を満たすために、一部のマスを黒く塗ります：
+
+1. 盤面の各行の左側または各列の上にある数字は、その行または列にある連続した黒いマスの長さを表します。
+2. 異なるグループの黒いマスの間には、必ず1つ以上の空のマスがあります。
+
+#### 「カックロ」：
+
+以下の条件を満たすように、すべての白いマスに1から9までの数字を1つずつ入れてください：
+
+1. 連続する白いマスの中では、同じ数字を繰り返してはいけません。
+2. 連続する白いマスに入れた数字の合計は、隣接する（左または上にある）黒いマスのヒントの数字と等しくなければなりません。
+
+#### 「へやわけ」：
+
+以下の条件を満たすように、いくつかのセルを黒く塗ります：
+
+1. 線で区切られた領域(部屋)内にある数字は、その領域内にある黒マスの数である。
+2. 黒マス同士は縦にも横にも隣り合わない。
+3. まっすぐに並んだ白マスの列は3部屋以上にまたがらない。
+4. 白マスはすべて繋がって1つのグループになる。
+
+
 ## 关键词：
+英文：number puzzles,kakuro,nonogram,kakurasu,sudoku,binairo,hitori,kuromasu,slitherlink,masyu,eulersquare
+没写：renzoku,oneness,findnine,doppelblock,tents,lightup,fourwinds,gappy,nurikabe,hundred,thermometers,dominosa,bricks,battleships,minesweeper,slant,shikaku,heyawake
 
-英文：logic number puzzles,kakurasu,sudoku,binairo,hitori,kuromasu,slitherlink,masyu,eulersquare,shikaku
-没写：renzoku,oneness,findnine,doppelblock,tents,lightup,fourwinds,gappy,nurikabe,hundred,thermometers,dominosa,bricks,battleships,minesweeper,
+中文：数字谜题,数图,数间,数迷,数和,数织,方阵和,数回,数墙,扫雷,欧拉方阵,数独,数壹,数邻,数方,四风,温度计,摩天大楼,战舰,帐篷,点灯,找九,珍珠,黑格,双黑格,间隙,2048,OOXX,砖块
+没写:一百,归一,斜线,箭头
 
-中文：数字谜题,脑力训练,谜题发烧友,锻炼大脑,方阵和,数回,数墙,扫雷,欧拉方阵,数独,数壹,数邻,数方,四风,温度计,摩天大楼,战舰,帐篷,点灯,找九,珍珠,黑格,双黑格,箭头,间隙,2048,OOXX
-没写:一百,砖块,归一
+日文：数字パズル,カックロ,ののぐらむ,ひとり,カクラス,レンガ,オイラー方陣,マインスイーパー,黒マス,スリザーリンク,ドミノサ,ビルディング,タクズ,戦艦,真珠,テント,美術館,連続,四風,塗壁
+没写:九を探す,四角に切れ,温度計,一百,斜線,双黒格,間隙,数独,塗壁
 
-日文：数字パズル,カクラス,レンガ,オイラー方陣,塗壁,数独,マインスイーパー,ひとり,黒マス,スリザーリンク,ドミノサ,ビルディング,タクズ,戦艦,真珠,テント,美術館,連続,四風,矢印,間隙,双黒格
-没写:九を探す,四角に切れ,温度計,一百,
-
-德语：Zahlenrätsel,brain game,doppelblock,eulersquare,sudoku,2048,tents,gappy,lightup,masyu,nurikabe
-没盖：renzoku,oneness,findnine,bricks,thermometer
+德语：brain game,minesweeper,doppelblock,battleships,heyawake,shikaku,lightup,nurikabe,dominosa,fourwinds
+没盖：renzoku,oneness,findnine,bricks,thermometer,hundred,slant,gappy,tents
 
 ## 标题：
 
